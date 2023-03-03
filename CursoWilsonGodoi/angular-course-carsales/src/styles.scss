@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+$background-color: #050505 !important;
+$font-color: #ffffff !important;
+$border: 5px solid #ffffff !important;
+
+body {
+  background-image: url('./assets/bg-car-2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+}
+
+
+
+.p-card {
+  background-color: $background-color;
+  color: $font-color;
+  border: $border;
+}
+
+.txt-center {
+  text-align: center;
+}

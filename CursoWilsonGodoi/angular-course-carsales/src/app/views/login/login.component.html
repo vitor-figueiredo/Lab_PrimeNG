@@ -1,0 +1,37 @@
+<div class="grid h-screen">
+
+  <div class="col-12 sm:col-10 md:col-8 lg:col-6 xl:col-3 m-auto">
+
+    <p-card class="opacity-80">
+
+      <div class="grid">
+
+        <div class="col-12 txt-center">
+          <i class="pi pi-car text-8xl text-primary"></i>
+          <h2>Car Sales</h2>
+        </div>
+
+        <div class="col-12">
+          <label for="">Usuário:</label>
+          <input [(ngModel)]="requestLogin.login" type="text" pInputText class="col-12">
+        </div>
+
+        <div class="col-12">
+          <label for="">Senha:</label>
+          <input [(ngModel)]="requestLogin.password" type="password" pInputText class="col-12">
+        </div>
+
+        <div class="col-12">
+          <button (click)="doLogin()" pButton icon="pi pi-play" label="Entar" class="col-12"></button>
+        </div>
+
+
+      </div>
+
+
+    </p-card>
+
+
+  </div>
+
+</div>
